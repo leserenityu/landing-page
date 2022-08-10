@@ -1,0 +1,48 @@
+.webpage {
+    font-family: sans-serif;
+}
+
+.header,
+.footer,
+.section-one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.header,
+.section-one {
+    padding: 50px;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    font-weight: bold;
+}
+
+.links {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 1em;
+}
+
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px
+}
