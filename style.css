@@ -1,5 +1,6 @@
 .webpage {
     font-family: sans-serif;
+    flex: 1 1 auto;
 }
 
 .header,
@@ -99,6 +100,27 @@ button {
 
 .box {
     border-color: #3882F6;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 100px 200px
+}
+
+#quote {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#quoter {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .footer {
