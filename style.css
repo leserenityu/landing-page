@@ -57,7 +57,7 @@ a:visited {
 }
 
 #main-text {
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
     font-size: 48px;
 }
@@ -78,6 +78,27 @@ button {
     justify-content: center;
     align-items: center;
     padding: 50px
+}
+
+.section-two {
+
+}
+
+#heading-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    list-style: none;
+    display: flex;
+}
+
+.box {
+    border-color: #3882F6;
 }
 
 .footer {
