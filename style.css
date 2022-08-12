@@ -82,24 +82,44 @@ button {
 }
 
 .section-two {
-
+    margin: 40px;
 }
 
 #heading-two {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 40px;
     display: flex;
     justify-content: center;
 }
 
-.information {
-    list-style: none;
+.row {
     display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
 .box {
+    border-style: solid;
     border-color: #3882F6;
+    border-radius: 15px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 12em;
 }
 
 .section-three {
