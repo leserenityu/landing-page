@@ -123,6 +123,39 @@ button {
     align-items: flex-end;
 }
 
+.section-four {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.call-action {
+    display: flex;
+    align-items: center;
+}
+
+.desc {
+    max-width: 300px;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.second-button {
+    border-color: #F9FAF8;
+}
+
 .footer {
     display: flex;
     justify-content: center;
